@@ -1,0 +1,31 @@
+django-cors-headers:
+=============================
+a Django package used to handle CORS (Cross-Origin Resource Sharing).
+
+or 
+
+It allows your frontend and backend to communicate when they are running on different origins.
+
+
+Suppose you have:
+
+Django backend → http://localhost:8000
+React frontend → http://localhost:3000
+
+Even though both are on your computer, the ports are different, so the browser considers them different origins.
+
+===============================================
+Check that Django still works: if issuses are the it checks 
+
+syntax:
+python manage.py check
+
+output:
+System check identified no issues (0 silenced).
+
+=================================================
+
+Install Axios:
+Axios is a library that makes HTTP requests easier.
+
+npm install axios
